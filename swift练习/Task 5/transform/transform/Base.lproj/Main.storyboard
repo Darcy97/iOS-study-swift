@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="30" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DP5-yY-hOd">
+                                <rect key="frame" x="28" y="276" width="30" height="30"/>
+                                <state key="normal" title="左"/>
+                                <connections>
+                                    <action selector="move:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9aA-rq-FQG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="50" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SbX-i0-hBh">
+                                <rect key="frame" x="136" y="205" width="30" height="30"/>
+                                <state key="normal" title="放大"/>
+                                <connections>
+                                    <action selector="zoom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Ub-ZZ-989"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="60" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cum-nC-pfa">
+                                <rect key="frame" x="136" y="276" width="30" height="30"/>
+                                <state key="normal" title="缩小"/>
+                                <connections>
+                                    <action selector="zoom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KpJ-Vh-Irm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="20" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x2a-eB-0KQ">
+                                <rect key="frame" x="82" y="205" width="30" height="30"/>
+                                <state key="normal" title="下"/>
+                                <connections>
+                                    <action selector="move:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jUJ-Lp-Lv9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="80" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xe0-Vo-hGC">
+                                <rect key="frame" x="182" y="276" width="75" height="30"/>
+                                <state key="normal" title="逆时针旋转"/>
+                                <connections>
+                                    <action selector="s:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mxz-re-mlz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="40" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hKv-7g-Cwt">
+                                <rect key="frame" x="82" y="276" width="30" height="30"/>
+                                <state key="normal" title="右"/>
+                                <connections>
+                                    <action selector="move:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4uI-gm-VyR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="70" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="quL-hR-R6O">
+                                <rect key="frame" x="182" y="205" width="75" height="30"/>
+                                <state key="normal" title="顺时针旋转"/>
+                                <connections>
+                                    <action selector="s:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qjI-Hj-Udi"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="90t-2x-1eF">
+                                <rect key="frame" x="20" y="28" width="240" height="128"/>
+                            </imageView>
+                            <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hB7-iY-WHZ">
+                                <rect key="frame" x="28" y="205" width="30" height="30"/>
+                                <state key="normal" title="上"/>
+                                <connections>
+                                    <action selector="move:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e7E-jM-gTB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="pic" destination="90t-2x-1eF" id="5ok-0X-yfU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="458" y="400"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1.jpg" width="352" height="220"/>
+    </resources>
+</document>

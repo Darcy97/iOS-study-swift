@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GJU-XK-f1J">
+                                <rect key="frame" x="86" y="130" width="45" height="30"/>
+                                <state key="normal" title="写文件"/>
+                                <connections>
+                                    <action selector="writeFlie:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mU7-Fe-43d"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="txH-1K-q7Y">
+                                <rect key="frame" x="78" y="239" width="60" height="30"/>
+                                <state key="normal" title="创建文件"/>
+                                <connections>
+                                    <action selector="creatfile:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gqI-j1-wDU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v6B-DD-TlL">
+                                <rect key="frame" x="86" y="88" width="45" height="26"/>
+                                <state key="normal" title="读文件"/>
+                                <connections>
+                                    <action selector="readFile:" destination="BYZ-38-t0r" eventType="touchUpInside" id="grX-Ge-1QT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mMk-A4-awh">
+                                <rect key="frame" x="117" y="349" width="30" height="30"/>
+                                <state key="normal" title="保存"/>
+                                <connections>
+                                    <action selector="save:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zrF-d3-MFH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ilo-V8-xFu">
+                                <rect key="frame" x="117" y="407" width="30" height="30"/>
+                                <state key="normal" title="读取"/>
+                                <connections>
+                                    <action selector="read:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D7z-mK-02v"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7zl-BB-LKs">
+                                <rect key="frame" x="78" y="207" width="60" height="30"/>
+                                <state key="normal" title="创建目录"/>
+                                <connections>
+                                    <action selector="creatDict:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L2s-sg-luK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CRR-xo-9UZ">
+                                <rect key="frame" x="78" y="283" width="60" height="30"/>
+                                <state key="normal" title="删除文件"/>
+                                <connections>
+                                    <action selector="deleteFile:" destination="BYZ-38-t0r" eventType="touchUpInside" id="raX-kE-0Hx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="325" y="328"/>
+        </scene>
+    </scenes>
+</document>

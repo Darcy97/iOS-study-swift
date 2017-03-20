@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F8B83891CDE208600093354 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8B83881CDE208600093354 /* main.m */; };
+		1F8B838C1CDE208600093354 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8B838B1CDE208600093354 /* AppDelegate.m */; };
+		1F8B838F1CDE208600093354 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8B838E1CDE208600093354 /* ViewController.m */; };
+		1F8B83921CDE208600093354 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F8B83901CDE208600093354 /* Main.storyboard */; };
+		1F8B83941CDE208600093354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F8B83931CDE208600093354 /* Assets.xcassets */; };
+		1F8B83971CDE208600093354 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F8B83951CDE208600093354 /* LaunchScreen.storyboard */; };
+		1F8B83A21CDE208600093354 /* UIImageView________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8B83A11CDE208600093354 /* UIImageView________Tests.m */; };
+		1F8B83AD1CDE208600093354 /* UIImageView________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8B83AC1CDE208600093354 /* UIImageView________UITests.m */; };
+		1F8B83BC1CDE250700093354 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F8B83BA1CDE250700093354 /* 8.jpg */; };
+		1F8B83BD1CDE250700093354 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F8B83BB1CDE250700093354 /* 9.jpg */; };
+		1F8B83C01CDE351A00093354 /* ImageChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8B83BF1CDE351A00093354 /* ImageChange.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F8B839E1CDE208600093354 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F8B837C1CDE208600093354 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F8B83831CDE208600093354;
+			remoteInfo = "UIImageView淡入淡出图片效果";
+		};
+		1F8B83A91CDE208600093354 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F8B837C1CDE208600093354 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F8B83831CDE208600093354;
+			remoteInfo = "UIImageView淡入淡出图片效果";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F8B83841CDE208600093354 /* UIImageView淡入淡出图片效果.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIImageView淡入淡出图片效果.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F8B83881CDE208600093354 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F8B838A1CDE208600093354 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F8B838B1CDE208600093354 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F8B838D1CDE208600093354 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1F8B838E1CDE208600093354 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1F8B83911CDE208600093354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F8B83931CDE208600093354 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F8B83961CDE208600093354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F8B83981CDE208600093354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F8B839D1CDE208600093354 /* UIImageView淡入淡出图片效果Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIImageView淡入淡出图片效果Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F8B83A11CDE208600093354 /* UIImageView________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView________Tests.m"; sourceTree = "<group>"; };
+		1F8B83A31CDE208600093354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F8B83A81CDE208600093354 /* UIImageView淡入淡出图片效果UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIImageView淡入淡出图片效果UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F8B83AC1CDE208600093354 /* UIImageView________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView________UITests.m"; sourceTree = "<group>"; };
+		1F8B83AE1CDE208600093354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F8B83BA1CDE250700093354 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		1F8B83BB1CDE250700093354 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		1F8B83BE1CDE351A00093354 /* ImageChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageChange.h; sourceTree = "<group>"; };
+		1F8B83BF1CDE351A00093354 /* ImageChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageChange.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F8B83811CDE208600093354 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F8B839A1CDE208600093354 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F8B83A51CDE208600093354 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F8B837B1CDE208600093354 = {
+			isa = PBXGroup;
+			children = (
+				1F8B83861CDE208600093354 /* UIImageView淡入淡出图片效果 */,
+				1F8B83A01CDE208600093354 /* UIImageView淡入淡出图片效果Tests */,
+				1F8B83AB1CDE208600093354 /* UIImageView淡入淡出图片效果UITests */,
+				1F8B83851CDE208600093354 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F8B83851CDE208600093354 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F8B83841CDE208600093354 /* UIImageView淡入淡出图片效果.app */,
+				1F8B839D1CDE208600093354 /* UIImageView淡入淡出图片效果Tests.xctest */,
+				1F8B83A81CDE208600093354 /* UIImageView淡入淡出图片效果UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F8B83861CDE208600093354 /* UIImageView淡入淡出图片效果 */ = {
+			isa = PBXGroup;
+			children = (
+				1F8B838A1CDE208600093354 /* AppDelegate.h */,
+				1F8B838B1CDE208600093354 /* AppDelegate.m */,
+				1F8B838D1CDE208600093354 /* ViewController.h */,
+				1F8B838E1CDE208600093354 /* ViewController.m */,
+				1F8B83901CDE208600093354 /* Main.storyboard */,
+				1F8B83931CDE208600093354 /* Assets.xcassets */,
+				1F8B83951CDE208600093354 /* LaunchScreen.storyboard */,
+				1F8B83981CDE208600093354 /* Info.plist */,
+				1F8B83BE1CDE351A00093354 /* ImageChange.h */,
+				1F8B83BF1CDE351A00093354 /* ImageChange.m */,
+				1F8B83871CDE208600093354 /* Supporting Files */,
+			);
+			path = "UIImageView淡入淡出图片效果";
+			sourceTree = "<group>";
+		};
+		1F8B83871CDE208600093354 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F8B83BA1CDE250700093354 /* 8.jpg */,
+				1F8B83BB1CDE250700093354 /* 9.jpg */,
+				1F8B83881CDE208600093354 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F8B83A01CDE208600093354 /* UIImageView淡入淡出图片效果Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1F8B83A11CDE208600093354 /* UIImageView________Tests.m */,
+				1F8B83A31CDE208600093354 /* Info.plist */,
+			);
+			path = "UIImageView淡入淡出图片效果Tests";
+			sourceTree = "<group>";
+		};
+		1F8B83AB1CDE208600093354 /* UIImageView淡入淡出图片效果UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F8B83AC1CDE208600093354 /* UIImageView________UITests.m */,
+				1F8B83AE1CDE208600093354 /* Info.plist */,
+			);
+			path = "UIImageView淡入淡出图片效果UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F8B83831CDE208600093354 /* UIImageView淡入淡出图片效果 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F8B83B11CDE208600093354 /* Build configuration list for PBXNativeTarget "UIImageView淡入淡出图片效果" */;
+			buildPhases = (
+				1F8B83801CDE208600093354 /* Sources */,
+				1F8B83811CDE208600093354 /* Frameworks */,
+				1F8B83821CDE208600093354 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIImageView淡入淡出图片效果";
+			productName = "UIImageView淡入淡出图片效果";
+			productReference = 1F8B83841CDE208600093354 /* UIImageView淡入淡出图片效果.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F8B839C1CDE208600093354 /* UIImageView淡入淡出图片效果Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F8B83B41CDE208600093354 /* Build configuration list for PBXNativeTarget "UIImageView淡入淡出图片效果Tests" */;
+			buildPhases = (
+				1F8B83991CDE208600093354 /* Sources */,
+				1F8B839A1CDE208600093354 /* Frameworks */,
+				1F8B839B1CDE208600093354 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F8B839F1CDE208600093354 /* PBXTargetDependency */,
+			);
+			name = "UIImageView淡入淡出图片效果Tests";
+			productName = "UIImageView淡入淡出图片效果Tests";
+			productReference = 1F8B839D1CDE208600093354 /* UIImageView淡入淡出图片效果Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F8B83A71CDE208600093354 /* UIImageView淡入淡出图片效果UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F8B83B71CDE208600093354 /* Build configuration list for PBXNativeTarget "UIImageView淡入淡出图片效果UITests" */;
+			buildPhases = (
+				1F8B83A41CDE208600093354 /* Sources */,
+				1F8B83A51CDE208600093354 /* Frameworks */,
+				1F8B83A61CDE208600093354 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F8B83AA1CDE208600093354 /* PBXTargetDependency */,
+			);
+			name = "UIImageView淡入淡出图片效果UITests";
+			productName = "UIImageView淡入淡出图片效果UITests";
+			productReference = 1F8B83A81CDE208600093354 /* UIImageView淡入淡出图片效果UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F8B837C1CDE208600093354 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "张皓";
+				TargetAttributes = {
+					1F8B83831CDE208600093354 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3ABF6JEP26;
+					};
+					1F8B839C1CDE208600093354 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3ABF6JEP26;
+						TestTargetID = 1F8B83831CDE208600093354;
+					};
+					1F8B83A71CDE208600093354 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3ABF6JEP26;
+						TestTargetID = 1F8B83831CDE208600093354;
+					};
+				};
+			};
+			buildConfigurationList = 1F8B837F1CDE208600093354 /* Build configuration list for PBXProject "UIImageView淡入淡出图片效果" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F8B837B1CDE208600093354;
+			productRefGroup = 1F8B83851CDE208600093354 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F8B83831CDE208600093354 /* UIImageView淡入淡出图片效果 */,
+				1F8B839C1CDE208600093354 /* UIImageView淡入淡出图片效果Tests */,
+				1F8B83A71CDE208600093354 /* UIImageView淡入淡出图片效果UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F8B83821CDE208600093354 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F8B83BC1CDE250700093354 /* 8.jpg in Resources */,
+				1F8B83971CDE208600093354 /* LaunchScreen.storyboard in Resources */,
+				1F8B83941CDE208600093354 /* Assets.xcassets in Resources */,
+				1F8B83BD1CDE250700093354 /* 9.jpg in Resources */,
+				1F8B83921CDE208600093354 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F8B839B1CDE208600093354 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F8B83A61CDE208600093354 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F8B83801CDE208600093354 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F8B838F1CDE208600093354 /* ViewController.m in Sources */,
+				1F8B83C01CDE351A00093354 /* ImageChange.m in Sources */,
+				1F8B838C1CDE208600093354 /* AppDelegate.m in Sources */,
+				1F8B83891CDE208600093354 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F8B83991CDE208600093354 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F8B83A21CDE208600093354 /* UIImageView________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F8B83A41CDE208600093354 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F8B83AD1CDE208600093354 /* UIImageView________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F8B839F1CDE208600093354 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F8B83831CDE208600093354 /* UIImageView淡入淡出图片效果 */;
+			targetProxy = 1F8B839E1CDE208600093354 /* PBXContainerItemProxy */;
+		};
+		1F8B83AA1CDE208600093354 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F8B83831CDE208600093354 /* UIImageView淡入淡出图片效果 */;
+			targetProxy = 1F8B83A91CDE208600093354 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F8B83901CDE208600093354 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F8B83911CDE208600093354 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F8B83951CDE208600093354 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F8B83961CDE208600093354 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F8B83AF1CDE208600093354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F8B83B01CDE208600093354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F8B83B21CDE208600093354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UIImageView淡入淡出图片效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "my.UIImageView--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F8B83B31CDE208600093354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UIImageView淡入淡出图片效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "my.UIImageView--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1F8B83B51CDE208600093354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UIImageView淡入淡出图片效果Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "my.UIImageView--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIImageView淡入淡出图片效果.app/UIImageView淡入淡出图片效果";
+			};
+			name = Debug;
+		};
+		1F8B83B61CDE208600093354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UIImageView淡入淡出图片效果Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "my.UIImageView--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIImageView淡入淡出图片效果.app/UIImageView淡入淡出图片效果";
+			};
+			name = Release;
+		};
+		1F8B83B81CDE208600093354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UIImageView淡入淡出图片效果UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "my.UIImageView--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UIImageView淡入淡出图片效果";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1F8B83B91CDE208600093354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UIImageView淡入淡出图片效果UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "my.UIImageView--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UIImageView淡入淡出图片效果";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F8B837F1CDE208600093354 /* Build configuration list for PBXProject "UIImageView淡入淡出图片效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F8B83AF1CDE208600093354 /* Debug */,
+				1F8B83B01CDE208600093354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F8B83B11CDE208600093354 /* Build configuration list for PBXNativeTarget "UIImageView淡入淡出图片效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F8B83B21CDE208600093354 /* Debug */,
+				1F8B83B31CDE208600093354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F8B83B41CDE208600093354 /* Build configuration list for PBXNativeTarget "UIImageView淡入淡出图片效果Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F8B83B51CDE208600093354 /* Debug */,
+				1F8B83B61CDE208600093354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F8B83B71CDE208600093354 /* Build configuration list for PBXNativeTarget "UIImageView淡入淡出图片效果UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F8B83B81CDE208600093354 /* Debug */,
+				1F8B83B91CDE208600093354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F8B837C1CDE208600093354 /* Project object */;
+}

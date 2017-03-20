@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "11C6D63E3DBB0D217ED8B82033D14C16476CC746",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "11C6D63E3DBB0D217ED8B82033D14C16476CC746" : 9223372036854775807,
+    "98D06D268658E741ACB05DEE2CC7562358D507CF" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "40A7BECA-68C1-4F91-B8FE-51E27FDDBC08",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "11C6D63E3DBB0D217ED8B82033D14C16476CC746" : "jike-study-ios\/",
+    "98D06D268658E741ACB05DEE2CC7562358D507CF" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "99乘法表",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "swift练习\/Nonename\/99乘法表\/99乘法表.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Darcy97\/iOS-study-swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "11C6D63E3DBB0D217ED8B82033D14C16476CC746"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Darcy97\/iOS-study-swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "98D06D268658E741ACB05DEE2CC7562358D507CF"
+    }
+  ]
+}

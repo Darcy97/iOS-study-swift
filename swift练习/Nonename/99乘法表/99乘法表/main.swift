@@ -11,10 +11,10 @@ import Foundation
 for i in 1...9 {
     for t in 1...i{
         var a = i*t
-        print("\(i)x\(t)=\(a)",terminator: " \t")
+        print("*\(i)x\(t)=\(a)",terminator: " \t")
         
     }
-    print("\n")
+   print("\n")
 }
 //for x in 0...10{    print("\(x) ", terminator: "")}
 
